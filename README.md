@@ -26,7 +26,7 @@ Git是目前世界上最先进的分布式版本控制系统。
 4. ls(ll)：列出当前目录中的所有文件，只不过ll列出的内容更加详细
 5. touch：新建一个文件 如touch index.js 就会在当前目录下新建一个index.js文件
 6. rm：删除一个文件， rm index.js 就会把index.js文件删除
-7. mkdir：新建一个目录(文件夹)
+7. mkdir：新建一个目录(文件夹)，创建多级目录加 -p
 8. rm -r：删除一个文件夹，rm -r src 删除src目录
 9. mv：移动文件，mv index.html src ，index.html是我们要移动的文件，src是目标文件夹，当然，这样写必须文件和文件夹在同一个目录下
 10. reset：重新初始化终端/清屏
