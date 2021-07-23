@@ -61,4 +61,12 @@ Git本地有三个工作区域 工作目录(Working Directory)，暂存区(Stage
 - git init:本地创建
 - git clone [url]:远程克隆
 
-
+## Git文件操作
+文件有4种状态：  
+- Untracked:未跟踪，此文件在文件夹中，但并没有加入到git库，不参与版本控制。通过**git add**状态转变为**Staged**
+- Unmodify:文件已经入库，未修改，即版本库中的文件快照内容与文件夹完全一致，这种类型的文件有两种去处，如果它被修改  
+则变为**Modified**.如果使用**git rm**移出版本库，则变为**Untracked**文件
+- Modified:文件已修改，仅仅是修改，并没有进行其他操作，这个文件也有两种去处，通过**git add**可进入暂存**staged**状态  
+，使用**git checkout**则丢弃修改过，返回到**unmodify**状态，这个**git checkout**即从库中取出文件，覆盖当前修改！  
+- Staged:暂存状态，执行**git commit**则将修改同步到库中，这时库中的文件和本地文件变为一致，文件为**Unmodify**状态。  
+执行**git reset HEAD filename**取消暂存，文件状态为**Modified**
