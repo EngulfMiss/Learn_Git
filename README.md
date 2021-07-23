@@ -47,6 +47,6 @@ Git是目前世界上最先进的分布式版本控制系统。
 ## Git基本理论(核心)
 - 工作区域
 Git本地有三个工作区域 工作目录(Working Directory)，暂存区(Stage/index)，资源库(Repository或Git Directory)。  
-如果再加上远程的git仓库(Remote Directory)就可以分为四个工作区域。
+如果再加上远程的git仓库(Remote Directory)就可以分为四个工作区域。  
 ![I88F{A}FYR( VM6PDBNS 84](https://user-images.githubusercontent.com/61497283/126729560-80058486-b446-40cf-a707-24df84bb9a56.png)
 
