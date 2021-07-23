@@ -36,5 +36,10 @@ Git是目前世界上最先进的分布式版本控制系统。
 14. exit：退出
 15. #：表示注释
 
+## git的配置
+- 查看git的配置: git config -l
+- 查看系统的配置：git config --system --list
+- 查看本地(用户)的配置：git config --global --list
 
-
+- 设置git用户名(必须)：git config --global user.name "MildLamb"
+- 设置git邮箱地址(必须)：git config --global user.email "1216982545@qq.com"
