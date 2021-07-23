@@ -88,3 +88,10 @@ Git本地有三个工作区域 工作目录(Working Directory)，暂存区(Stage
 - 进入C:\Users\Lenovo\.ssh
 - 打开git 输入 ssh-keygen -t rsa,回车后会生成两个文件
 - 在码云添加公钥
+
+
+## IDEA中集成Git
+1. 新建项目，绑定git  
+复制克隆下来的文件到自己项目中就可以做到
+2. 修改文件，使用IDEA操作git
+3. 提交测试
