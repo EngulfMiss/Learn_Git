@@ -95,3 +95,22 @@ Git本地有三个工作区域 工作目录(Working Directory)，暂存区(Stage
 复制克隆下来的文件到自己项目中就可以做到
 2. 修改文件，使用IDEA操作git
 3. 提交测试
+
+## GIT分支
+分支在GIT中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了!
+**git中常用的分支命令**  
+- 列出所有分支
+git branch
+- 列出所有远程分支
+git branch -r
+- 新建一个分支，但依然停留在当前分支
+git branch [branch-name]
+- 新建一个分支，并切换到该分支
+git checkout -b [branch]
+- 合并指定分支到当前分支
+$ git merge [branch]
+- 删除分支
+$ git branch -d [branch-name]
+- 删除远程分支
+$ git push origin --delete [branch-name]  
+$ git branch -dr [remote/branch]
