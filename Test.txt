@@ -1,2 +1,3 @@
 测试IDEA集成GIT
 测试IDEA是否需要登录git
+测试一下分支
