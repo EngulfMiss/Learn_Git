@@ -54,5 +54,11 @@ Git本地有三个工作区域 工作目录(Working Directory)，暂存区(Stage
   - Repository :仓库区（或本地仓库），就是安全存放数据的位置，这里面有你提交到所有版本的数据。其中HEAD指向最新放入仓库的版本
   - Remote :远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换  
 
-![N2`5DRJS XL{}R 9L)83_@2](https://user-images.githubusercontent.com/61497283/126730003-198e79bb-7cda-4238-9115-2224ecb6867f.png)
+## Git项目搭建
+![U UVBX(V$73 HL}6N AAU2J](https://user-images.githubusercontent.com/61497283/126730274-53b8c0a0-c00b-480c-a3a7-3c9ff932f8a3.png)
+
+**创建本地仓库的方法有两种：一种是创建全新的仓库，另一种是克隆远程仓库**  
+- git init:本地创建
+- git clone [url]:远程克隆
+
 
